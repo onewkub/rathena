@@ -315,9 +315,9 @@ OnInit:
 	.s_zeny = 10000;	//if you don't want zeny requirment set it to 0
 	.s_zeny_remove = 100000;	//this for enchantment reset
 	.item_is_required = false;	//if you want the orb it self to be required true = yes , false = no(if .chosse_orb = false this will be false too)
-	.s_enchant_overwrite = false;	//if true then you can overwrite the enchant
-	.progress_time = 7;	//the time that needed to wait until the socket end
-	.chosse_orb = false;	//false = random ,true = yes
+	.s_enchant_overwrite = true;	//if true then you can overwrite the enchant
+	.progress_time = 3;	//the time that needed to wait until the socket end
+	.chosse_orb = true;	//false = random ,true = yes
 	.brack_chance = 100;	//the chanse that it will brack if it fail
 	.remove_enchant = true;	//false = no ,true = yes
 	.select_remove_orb = true;
