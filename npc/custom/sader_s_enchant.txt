@@ -264,15 +264,15 @@ OnInit:
 	//--------------------------------------------------------------//
 	//if you want to put specific IDs for kind of gear put it to 1
 	//--------------------------------------------------------------//
-	.specific_Weapons = true;
-	.specific_Armors = true;
-	.specific_Shields = true;
-	.specific_Germents = true;
-	.specific_Shoses = true;
-	.specific_Accessarys = true;
-	.specific_Uppers = true;
-	.specific_Middels = true;
-	.specific_Lowers = true;
+	.specific_Weapons = false;
+	.specific_Armors = false;
+	.specific_Shields = false;
+	.specific_Germents = false;
+	.specific_Shoses = false;
+	.specific_Accessarys = false;
+	.specific_Uppers = false;
+	.specific_Middels = false;
+	.specific_Lowers = false;
 	
 	//--------------------------------------------------------------//
 	//if specific put the IDs here
@@ -309,16 +309,16 @@ OnInit:
 	//--------------------------------------------------------------//
 	//other configuration
 	//--------------------------------------------------------------//
-	setarray .s_level_required,0,175;	//the level required to use the npc
+	setarray .s_level_required,0,500;	//the level required to use the npc
 	.s_only_vip = false;	//if you want only vip to use it put it to 1
-	setarray .success_chanse,100,80,60,40;	//success chanse [1st_slot_chanse,2nd_slot_chanse,3rd_slot_chanse,4th_slot_chanse]
+	setarray .success_chanse,100,100,100,100;	//success chanse [1st_slot_chanse,2nd_slot_chanse,3rd_slot_chanse,4th_slot_chanse]
 	.s_zeny = 10000;	//if you don't want zeny requirment set it to 0
 	.s_zeny_remove = 100000;	//this for enchantment reset
 	.item_is_required = false;	//if you want the orb it self to be required true = yes , false = no(if .chosse_orb = false this will be false too)
 	.s_enchant_overwrite = false;	//if true then you can overwrite the enchant
 	.progress_time = 7;	//the time that needed to wait until the socket end
 	.chosse_orb = false;	//false = random ,true = yes
-	.brack_chance = 50;	//the chanse that it will brack if it fail
+	.brack_chance = 100;	//the chanse that it will brack if it fail
 	.remove_enchant = true;	//false = no ,true = yes
 	.select_remove_orb = true;
 	//--------------------------------------------------------------//
