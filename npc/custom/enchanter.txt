@@ -1,0 +1,12 @@
+-	script	Enchant Expert	-1,{
+//-------------------------------------------------------------------------------------
+// Enchant UI (RagExe 2021-11-03 or newer.)
+if ( countitem( 2375 ) || countitem( 2433 ) || countitem( 5808 ) || countitem( 2537 ) || countitem( 2729 ) || countitem( 2374 ) ) {
+	item_enchant 36;
+	end;
+}
+//-------------------------------------------------------------------------------------
+}
+// Duplicates
+//============================================================
+izlude,152,149,4	duplicate(Enchant Expert)	Enchant Expert#izl	VH_H_HUNTER_EV
