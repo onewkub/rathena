@@ -12,15 +12,16 @@
 //= or without logging out of the game. If the player is vending
 //= the script will then stop.
 //====================================================================
--    script    OnlineReward#1    -1,{
+
+-	script	OnlineReward	-1,{
  
 //--Start of the Script
 OnPCLoginEvent:
 attachnpctimer ""+strcharinfo(0)+"";
 initnpctimer;
 end;
-   
-OnTimer30000:
+
+OnTimer150000:
 //Check if Vending (normal or @at)
 if(checkvending() >= 1) {
     dispbottom "The rewards has stopped because you were vending . Please relog if you wish to start again.";
@@ -28,10 +29,10 @@ if(checkvending() >= 1) {
     end;
 }
  
-OnTimer60000:
-set @minute, @minute + 1;
-//Check for 1 Minute
-if(@minute == 1){
+OnTimer300000:
+set @minute, @minute + 5;
+//Check for 5 Minute
+if(@minute == 5){
     set @minute,0;
     set #CASHPOINTS,#CASHPOINTS+100;
     dispbottom "You received 100 Cash Points. Current Cash Points: " + #CASHPOINTS;
