@@ -12159,6 +12159,8 @@ Body:
       RS_B_Whip: true
       MV_B_Violin: true
       MV_B_Whip: true
+      SI_B_Saber: true
+      SP_B_Saber: true
     Order:
       - Slot: 3
       - Slot: 2
