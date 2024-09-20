@@ -539,6 +539,8 @@
 	export_constant(MF_NODYNAMICNPC);
 	export_constant(MF_NOBANK);
 	export_constant(MF_SPECIALPOPUP);
+	export_constant(MF_NOLOOTNORMALMOB);
+	export_constant(MF_NO_NPC_SELFDESTRUCTION_ON_ALL);
 
 	/* setcell types */
 	export_constant(CELL_WALKABLE);
@@ -7847,6 +7849,7 @@
 	export_constant(IG_COSTUMEMILEPACK_35_1);
 	export_constant(IG_COSTUMEMILEPACK_35_2);
 	export_constant(IG_COSTUMEMILEPACK_35_3);
+	export_constant(IG_D_GW_EXTRACTOR);
 
 	/* unit stop walking */
 	export_constant(USW_NONE);
@@ -9186,6 +9189,11 @@
 	export_constant_npc(JT_4_EP21_HOWELL_S);
 	export_constant_npc(JT_4_EP21_TAN_S);
 	export_constant_npc(JT_4_M_VACATION_MARAM);
+	export_constant_npc(JT_4_CLB_SS_FC);
+	export_constant_npc(JT_4_CLB_SS_TZ);
+	export_constant_npc(JT_4_CLB_SS_AJ);
+	export_constant_npc(JT_4_CLB_SS_LK);
+	export_constant_npc(JT_4_SMART_ANDRE);
 	export_constant_npc(JT_ROZ_MQ_XAVIER);
 	export_constant_npc(JT_ROZ_MQ_MOCLORD);
 	export_constant_npc(JT_ROZ_MQ_SKULD);
@@ -10550,7 +10558,21 @@
 	export_constant(HAT_EF_C_BABY_GLOOM);
 	export_constant(HAT_EF_WINTERNIGHTBELLS);
 	export_constant(HAT_EF_NIGHTSKYOFRUTIE);
+	export_constant(FOOTPRINT_EF_BASE);
+	export_constant(FOOTPRINT_EF_STR_BASE);
+	export_constant(FOOTPRINT_EF_PURPLESTAR);
+	export_constant(FOOTPRINT_EF_YELLOWSTAR);
+	export_constant(FOOTPRINT_EF_REDSTAR);
 	export_constant(HAT_EF_RAINBOW_POISON_MASTER);
+	export_constant(HAT_EF_C_ANCIENT_RUNE);
+	export_constant(HAT_EF_C_DRAGON_GREEN_AURA);
+	export_constant(HAT_EF_C_DRAGON_RED_AURA);
+	export_constant(HAT_EF_C_DRAGON_YELLOW_AURA);
+	export_constant(HAT_EF_INTERDIMENSIONAL_RIFT);
+	export_constant(HAT_EF_C_CLB_SS_LL);
+	export_constant(HAT_EF_VACATION);
+	export_constant(HAT_EF_C_FH_LOSTWING);
+	export_constant(FOOTPRINT_EF_DOGFOOT);
 
 	/* pet catch */
 	export_constant(PET_CATCH_UNIVERSAL);
