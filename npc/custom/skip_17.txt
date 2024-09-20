@@ -1,4 +1,4 @@
-izlude,156,143,3	script	Skip Quest 17	108,{
+izlude,155,141,3	script	Skip Quest 17	108,{
 			mes "[skip quest npc]";
 			mes "hello I can skip for you all the quest of the episode 17.1 and 17.2";
 			next;
