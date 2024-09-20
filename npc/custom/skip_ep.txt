@@ -7,7 +7,7 @@ izlude,153,141,3	script	Skip Quest NPC	108,{
 	mes "Which episode would you like to skip?";
 	
 	// Main menu for episode selection
-	menu "Skip Episode 16", L_Skip16, "Skip Episode 17", L_Skip17, "Skip Episode 18", L_Skip18, L_Skip19, "Skip Episode 19", "No thanks", L_Exit;
+	menu "Skip Episode 16", L_Skip16, "Skip Episode 17", L_Skip17, "Skip Episode 18", L_Skip18, "Skip Episode 19", L_Skip19, "No thanks", L_Exit;
 	
 	L_Skip16:
 		if (terra_gloria_main == 26 && ep_illusion == 0) {
