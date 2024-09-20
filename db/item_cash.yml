@@ -32,6 +32,12 @@ Header:
   Type: ITEM_CASH_DB
   Version: 1
 
+Body:
+  - Tab: New
+    Items:
+      - Item: C_Chasher_Ear
+        Price: 1000
+
 Footer:
   Imports:
     - Path: db/import/item_cash.yml
