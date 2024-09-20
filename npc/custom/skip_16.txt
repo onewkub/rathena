@@ -1,3 +1,5 @@
+//===== rAthena Script ======================================= 
+
 izlude,153,141,3	script	Skip Quest 16	108,{
 			mes "[skip quest npc]";
 			mes "hello I can skip for you all the quest of the episode 16.1 and 16.2 ";
@@ -11,6 +13,7 @@ izlude,153,141,3	script	Skip Quest 16	108,{
 		mes "16.1 and 16.2 done";
 	L1Exit:
 	L2:
-			mes "ok";
+			mes "OK";
+			close;
 	L2Exit:
 }
