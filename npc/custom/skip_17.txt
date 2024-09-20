@@ -1,0 +1,18 @@
+izlude,156,143,3	script	Skip Quest 17	108,{
+			mes "[skip quest npc]";
+			mes "hello I can skip for you all the quest of the episode 17.1 and 17.2";
+			next;
+			mes "are you interested?";
+			next;
+			menu "I am interested", L1, "no interest", L2;
+	L1:
+			setquest 16360;
+			completequest 16360;
+			ep17_2_main = 36;
+			
+		mes "17.1 and 17.2 done";
+	L1Exit:
+	L2:
+			mes "ok";
+	L2Exit:
+}

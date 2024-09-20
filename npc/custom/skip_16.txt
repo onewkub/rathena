@@ -1,8 +1,4 @@
-izlude,156,143,3	script	skipquest	108,{
-			//banquet
-			setarray .@quest161[0],7681,7682,11420,7684,14516,14469,7682,14474,7683,7686,14507,14495,7682,5403,5402,11400,11412,14475,14487,14481,14480,14482,14500,12369,5415,5416,5417,5418,5419,5420,5421,5422,5423,5424,5425,5428,5431,5436,5439,5442,5445,5432;
-			//terra gloria
-			setarray .@quest162[0],7741,14615,16031,14602,14602,16019,16061,14600,11462,14601,11464,14613,5737,16030,16048,16045,16050,16014,16028,16054,16055,16056,16057,16013,16027,16041,16032,16041,16029,16036,12376,7746,7747,7748,7749,7751;
+izlude,153,141,3	script	Skip Quest 16	108,{
 			mes "[skip quest npc]";
 			mes "hello I can skip for you all the quest of the episode 16.1 and 16.2 ";
 			next;
@@ -10,47 +6,11 @@ izlude,156,143,3	script	skipquest	108,{
 			next;
 			menu "I am interested", L1, "no interest", L2;
 	L1:
-			for(set .@i,0; .@i<(getarraysize(.@quest161)); set .@i,.@i+1) {
-				mes "quest  "+ .@quest161[.@i] + " ^FF0000 set^000000";
-				setquest .@quest161[.@i];
-			}
-			next;
-			for(set .@i,0; .@i<(getarraysize(.@quest161)); set .@i,.@i+1) {
-				mes "quest  "+ .@quest161[.@i] + " ^FF0000 complete ^000000";
-				completequest .@quest161[.@i];
-				if( .@i == (getarraysize(.@quest161))){
-				}
-			}
-		mes "16.1 done";
-		next;
-			for(set .@i,0; .@i<(getarraysize(.@quest162)); set .@i,.@i+1) {
-				mes "quest  "+ .@quest162[.@i] + " ^FF0000 set^000000";
-				setquest .@quest162[.@i];
-			}
-			next;
-			for(set .@i,0; .@i<(getarraysize(.@quest162)); set .@i,.@i+1) {
-				mes "quest  "+ .@quest162[.@i] + " ^FF0000 complete ^000000";
-				completequest .@quest162[.@i];
-				if( .@i == (getarraysize(.@quest162))){
-				}
-			} 
-		mes "16.2 done";
-		next;
-		//setquest 7853;
-		//setquest 7854;
-		//setquest 7855;
-		//setquest 7856;
-		//setquest 7857;
-		questinfo_refresh();
-		terra_gloria_main = 25;
-		ep_illusion = 0;
-		npctalk "use /navi prt_cas_q 21/39 speak with Nihilim";
-		next;
-		warp "prt_cas_q",134,8;
-		close;
+			terra_gloria_main = 26;
+			ep_illusion = 0;
+		mes "16.1 and 16.2 done";
 	L1Exit:
 	L2:
 			mes "ok";
-			//close;
 	L2Exit:
 }
