@@ -2,10 +2,9 @@
 
 izlude,153,141,3	script	Skip Quest NPC	108,{
 	mes "[skip quest npc]";
-	mes "Hello! I can help you skip the quests from Episode 16.1 to 18.";
+	mes "Hello! I can help you skip the quests from Episode 16.1 to 19.";
 	next;
 	mes "Which episode would you like to skip?";
-	next;
 	
 	// Main menu for episode selection
 	menu "Skip Episode 16", L_Skip16, "Skip Episode 17", L_Skip17, "Skip Episode 18", L_Skip18, L_Skip19, "Skip Episode 19", "No thanks", L_Exit;
