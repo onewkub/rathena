@@ -1,12 +1,27 @@
 //===== rAthena Script =======================================
+
 -	script	Enchant Booster	-1,{
-//-------------------------------------------------------------------------------------
-// Enchant UI (RagExe 2021-11-03 or newer.)
 item_enchant 36;
 end;
-//-------------------------------------------------------------------------------------
 }
+
+-	script	Enchant Good And Evil	-1,{
+item_enchant 66;
+end;
+}
+
+-	script	Enchant Good And Evil Helm	-1,{
+item_enchant 67;
+end;
+}
+
 
 // Duplicates
 //============================================================
 izlude,145,142,4	duplicate(Enchant Booster)	Enchant Booster#izl	116
+
+izlude,111,136,4	duplicate(Enchant Good And Evil)	Enchant Booster#izl	860
+
+izlude,111,133,4	duplicate(Enchant Good And Evil Helm)	Enchant Booster#izl	989
+
+
