@@ -37,6 +37,12 @@ Body:
     Items:
       - Item: C_Chasher_Ear
         Price: 1000
+  - Tab: Hot
+    Items:
+      - Item: Guarantee_Weapon_19Up
+        Price: 1000
+      - Item: Guarantee_Armor_19Up
+        Price: 1000
 
 Footer:
   Imports:
