@@ -37,7 +37,7 @@ Body:
     Items:
       - Item: C_Chasher_Ear
         Price: 1000
-  - Tab: Hot
+  - Tab: Scrolls
     Items:
       - Item: Guarantee_Weapon_19Up
         Price: 1000
