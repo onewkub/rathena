@@ -123,6 +123,7 @@ izlude,155,135,4	script	Refine Master	851,{
 			case 2:
 			case 3:
 			case 4:
+			case 5:
 				copyarray .@tickets[0], .@cert_weapon[0], .@size_cert;
 				.@type$ = "Weapon";
 				break;

@@ -251,15 +251,15 @@ OnInit:
 	//--------------------------------------------------------------//
 	//Orbs IDs (Note : Shield = left hand so the weapon on the left hand count as Shield too!
 	//--------------------------------------------------------------//
-	setarray .Weapon$,29090,29110,29120,29080,29100,29070;	//right handed weapons
-	setarray .Armor$,29090,29110,29120,29080,29100,29070;	//Armors
-	setarray .Shield$,29090,29110,29120,29080,29100,29070;	//Shields and left hand weapons
-	setarray .Germent$,29090,29110,29120,29080,29100,29070;	//Germent
-	setarray .Shose$,29090,29110,29120,29080,29100,29070;	//Shose
-	setarray .Accessary$,29090,29110,29120,29080,29100,29070;	//orbs id
-	setarray .Upper$,29090,29110,29120,29080,29100,29070;	//Accessary
-	setarray .Middel$,29090,29110,29120,29080,29100,29070;	//Middel
-	setarray .Lower$,29090,29110,29120,29080,29100,29070;	//Lower
+	setarray .Weapon$,29090,29110,29120,29080,29100,29070,4950;	//right handed weapons
+	setarray .Armor$,29090,29110,29120,29080,29100,29070,4950;	//Armors
+	setarray .Shield$,29090,29110,29120,29080,29100,29070,4950;	//Shields and left hand weapons
+	setarray .Germent$,29090,29110,29120,29080,29100,29070,4950;	//Germent
+	setarray .Shose$,29090,29110,29120,29080,29100,29070,4950;	//Shose
+	setarray .Accessary$,29090,29110,29120,29080,29100,29070,4950;	//orbs id
+	setarray .Upper$,29090,29110,29120,29080,29100,29070,4950;	//Accessary
+	setarray .Middel$,29090,29110,29120,29080,29100,29070,4950;	//Middel
+	setarray .Lower$,29090,29110,29120,29080,29100,29070,4950;	//Lower
 	
 	//--------------------------------------------------------------//
 	//if you want to put specific IDs for kind of gear put it to 1
