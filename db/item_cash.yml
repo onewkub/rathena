@@ -37,12 +37,44 @@ Body:
     Items:
       - Item: C_Chasher_Ear
         Price: 1000
+      - Item: C_Spot_Light
+        Price: 1000
   - Tab: Scrolls
     Items:
       - Item: Guarantee_Weapon_19Up
         Price: 1000
       - Item: Guarantee_Armor_19Up
         Price: 1000
+  - Tab: Hot
+    Items:
+      - Item: HE_Battle_Manual_Box
+        Price: 100
+      - Item: C_Wing_Of_Fly_Box
+        Price: 100
+      - Item: C_Enriched_Oridecon_Box
+        Price: 100
+      - Item: C_Enriched_Elunium_Box
+        Price: 100
+      - Item: Almighty_Box
+        Price: 100
+      - Item: Med_Life_Potion_Box50
+        Price: 100
+      - Item: Blacksmith_Blessing
+        Price: 10
+  - Tab: Permanent
+    Items:
+      - Item: Abyss_Dress
+        Price: 100
+      - Item: CatharinaPawnBrad60
+        Price: 100
+      - Item: EvilDragon_Armor
+        Price: 100
+      - Item: Perverse_Demon_Mask
+        Price: 100
+      - Item: Fallen_Angel_Wing
+        Price: 100
+      - Item: Geffenia_Magictool_Ice
+        Price: 100
 
 Footer:
   Imports:

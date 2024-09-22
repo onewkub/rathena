@@ -109107,16 +109107,68 @@ Body:
 #    AegisName: CROW_BARON
 #  - Id: 20784
 #    AegisName: MD_THANATOS
-#  - Id: 20785
-  - Id: 20785
+  - Id: 20784
     AegisName: MD_THANATOS
+    Name: MD_THANATOS
+    JapaneseName: Phantom Thanatos
+    Level: 210
+    Hp: 442473071
+    BaseExp: 1000000
+    JobExp: 1000000
+    # MvpExp: 1000000
+    Attack: 6370
+    Attack2: 9310
+    Defense: 390
+    MagicDefense: 86
+    Str: 280
+    Agi: 108
+    Vit: 60
+    Int: 186
+    Dex: 196
+    Luk: 61
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    RaceGroups:
+      Thanatos: true
+    Element: Ghost
+    ElementLevel: 4
+    WalkSpeed: 120
+    AttackDelay: 115
+    AttackMotion: 816
+    ClientAttackMotion: 672
+    DamageMotion: 504
+    DamageTaken: 10
+    Ai: 21
+    Class: Boss
+    # Modes:
+    #   Mvp: true
+    Drops:
+      - Item: Broken_Thanatos_Card 
+        Rate: 1
+      - Item: Sin_Fragment
+        Rate: 2000
+      - Item: Fate_Fragment
+        Rate: 2000
+        StealProtected: true
+    MvpDrops:
+      - Item: Broken_Thanatos_Card 
+        Rate: 1
+      - Item: Sin_Fragment
+        Rate: 1000
+      - Item: Fate_Fragment
+        Rate: 1000
+  - Id: 20785
+    AegisName: MD_BROKEN_THANATOS
     Name: MD_BROKEN_THANATOS
     JapaneseName: Broken Thanatos
     Level: 210
     Hp: 441773071
-    BaseExp: 779640
-    JobExp: 10000000
-    MvpExp: 10000000
+    BaseExp: 1000000
+    JobExp: 1000000
+    # MvpExp: 1000000
     Attack: 5270
     Attack2: 7685
     Defense: 270
@@ -109143,9 +109195,9 @@ Body:
     DamageMotion: 504
     DamageTaken: 10
     Ai: 21
-    Class: Boss
-    Modes:
-      Mvp: true
+    # Class: Boss
+    # Modes:
+    #   Mvp: true
     Drops:
       - Item: Broken_Thanatos_Card 
         Rate: 1
@@ -109161,7 +109213,6 @@ Body:
         Rate: 1000
       - Item: Fate_Fragment
         Rate: 1000
-  #    AegisName: MD_BROKEN_THANATOS
 #  - Id: 20786
 #    AegisName: MD_THA_BUFF
 #  - Id: 20787

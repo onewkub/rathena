@@ -1,0 +1,119 @@
+Header:
+  Type: MOB_DB
+  Version: 4
+
+Body:
+  - Id: 20572
+    AegisName: MD_C_HEMEL
+    Name: Phantom Himmelmez
+    Level: 195
+    Hp: 2000000000
+    BaseExp: 268578500
+    JobExp: 188004950
+    MvpExp: 0
+    Attack: 14000
+    Attack2: 19500
+    Defense: 514
+    MagicDefense: 92
+    Str: 636
+    Agi: 280
+    Vit: 208
+    Int: 328
+    Dex: 380
+    Luk: 66
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Angel
+    Element: Holy
+    ElementLevel: 3
+    WalkSpeed: 100
+    AttackDelay: 600
+    AttackMotion: 600
+    ClientAttackMotion: 600
+    DamageMotion: 576
+    DamageTaken: 10
+    Ai: 21
+    Class: Boss
+    Modes:
+      Mvp: true
+    MvpDrops:
+      - Item: Magic_Card_Album
+        Rate: 5000
+      - Item: Old_Violet_Box
+        Rate: 2500
+    Drops:
+      - Item: S_Circlet_Of_Time
+        Rate: 10000
+      - Item: S_Circlet_Of_Time
+        Rate: 5000
+      - Item: S_Circlet_Of_Time
+        Rate: 1000
+      - Item: Old_Card_Album 
+        Rate: 5000
+      - Item: Old_Violet_Box
+        Rate: 5000
+      - Item: Spell_Of_Time
+        Rate: 1000
+      - Item: M_Dimension_Essence
+        Rate: 5
+      - Item: C_Himel_Card
+        Rate: 1
+        StealProtected: true
+  - Id: 20573
+    AegisName: MD_C_AMDARAIS
+    Name: Phantom Amdarais
+    Level: 192
+    Hp: 2000000000
+    BaseExp: 268578500
+    JobExp: 188004950
+    MvpExp: 0
+    Attack: 14000
+    Attack2: 19500
+    Defense: 514
+    MagicDefense: 92
+    Str: 365
+    Agi: 328
+    Vit: 175
+    Int: 211
+    Dex: 437
+    Luk: 168
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Dark
+    ElementLevel: 3
+    WalkSpeed: 100
+    AttackDelay: 600
+    AttackMotion: 600
+    ClientAttackMotion: 600
+    DamageMotion: 576
+    DamageTaken: 10
+    Ai: 21
+    Class: Boss
+    Modes:
+      Mvp: true
+    MvpDrops:
+      - Item: Magic_Card_Album
+        Rate: 5000
+      - Item: Old_Violet_Box
+        Rate: 2500
+    Drops:
+      - Item: S_Circlet_Of_Time
+        Rate: 3000
+      - Item: S_Circlet_Of_Time
+        Rate: 1000
+      - Item: Old_Card_Album 
+        Rate: 5000
+      - Item: Old_Violet_Box
+        Rate: 5000
+      - Item: Spell_Of_Time
+        Rate: 1000
+      - Item: M_Dimension_Essence
+        Rate: 3
+      - Item: C_Amdarais_Card
+        Rate: 1
+        StealProtected: true

@@ -1,0 +1,20 @@
+//===== rAthena Script ======================================= 
+
+izlude,125,148,4	script	Multi-Map Warper	615,{
+
+  mes "[Multi-Map Warper]";
+  mes "Which map would you like to warp to?";
+  next;
+  switch(select("Thanatos Extra:Cancel")) {
+    case 1:
+        mes "[Multi-Map Warper]";
+        mes "Warping to Thanatos Extra!";
+        close2;
+        warp "tha_textra",125,128; // Coordinates on your custom map 1
+        end;
+    default:
+        mes "[Multi-Map Warper]";
+        mes "Maybe next time.";
+        close;
+  }
+}	
