@@ -20,8 +20,8 @@ end;
 //============================================================
 izlude,145,142,4	duplicate(Enchant Booster)	Enchant Booster#izl	116
 
-izlude,111,136,4	duplicate(Enchant Good And Evil)	Enchant Booster#izl	860
+izlude,111,136,4	duplicate(Enchant Good And Evil)	Enchant Good And Evi#izl	860
 
-izlude,111,133,4	duplicate(Enchant Good And Evil Helm)	Enchant Booster#izl	989
+izlude,111,133,4	duplicate(Enchant Good And Evil Helm)	Enchant Good And Evil Helm#izl	989
 
 
