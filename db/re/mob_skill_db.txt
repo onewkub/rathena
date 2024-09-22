@@ -14999,6 +14999,3 @@
 20785,MD_THANATOS@WZ_METEOR,attack,83,11,2000,1000,20000,no,target,always,0,,,,,,,
 20785,MD_THANATOS@MG_SOULSTRIKE,chase,13,10,2000,0,3000,yes,target,always,0,,,,,,,
 20785,MD_THANATOS@MG_SOULSTRIKE,attack,13,10,2000,0,3000,yes,target,always,0,,,,,,,
-20785,MD_THANATOS@AL_TELEPORT,idle,26,1,10000,0,0,yes,self,rudeattacked,,,,,,,,
-20785,MD_THANATOS@AL_TELEPORT,walk,26,1,10000,0,5000,yes,self,rudeattacked,,,,,,,,
-20785,MD_THANATOS@AL_TELEPORT,attack,26,1,500,0,10000,yes,self,always,0,,,,,,,
